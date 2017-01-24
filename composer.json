@@ -1,0 +1,28 @@
+{
+    "name": "yassine-khachlek/laravel-backup",
+    "description": "A Laravel backup example.",
+    "homepage": "https://github.com/yassine-khachlek/laravel-backup",
+    "license": "GPLv2",
+    "keywords": [
+        "laravel",
+        "package",
+        "example"
+    ],
+    "authors": [
+        {
+            "name": "Yassine Khachlek",
+            "email": "yassine.khachlek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Yk\\LaravelBackup\\": "src/"
+        }
+    }
+}
